@@ -11,6 +11,10 @@ This is a web application for tracking and downloading market cap data of crypto
 - [Usage](#usage)
 - [Contributing](#contributing)
 
+## Screenshots
+![Screenshot 1](./crypto-marketcap-frontend/image1.png)
+![Screenshot 2](./crypto-marketcap-frontend/image2.png)
+
 ## Features
 
 - Select and deselect cryptocurrencies for data retrieval.
