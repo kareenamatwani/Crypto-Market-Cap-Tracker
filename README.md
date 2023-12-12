@@ -17,8 +17,8 @@ This is a web application for tracking and downloading market cap data of crypto
 
 ## Structure
 - your root folder where node will be installed
-        - crypto-marketcap-frontend
-        - crypto-marketcap-backend
+1. crypto-marketcap-frontend
+2. crypto-marketcap-backend
 ## Screenshots
 ![Screenshot 1](./crypto-marketcap-frontend/image1.png)
 ![Screenshot 2](./crypto-marketcap-frontend/image2.png)
