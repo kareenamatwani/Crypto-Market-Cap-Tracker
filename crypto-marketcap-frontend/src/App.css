@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,100;1,200;1,400;1,500&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin: 0; /* Remove default margin */
+}
+
+.App {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+h1 {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+label {
+  display: block;
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input,
+button {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  font-size: 1em;
+  outline: none;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+  margin-bottom: 20px;
+}
+
+input:focus {
+  border-color: #0056b3;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  font-size: 1em;
+  outline: none;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+  margin-bottom: 20px;
+  appearance: none; /* Remove default arrow icon in some browsers */
+  background-color: white; /* Set background color */
+  background-image: linear-gradient(to bottom, #ffffff 0%, #f9f9f9 100%); /* Add a gradient background */
+  background-repeat: no-repeat;
+  background-position: right 10px top 50%;
+  cursor: pointer;
+}
+
+/* Add a hover effect */
+select:hover {
+  border-color: #0056b3;
+}
+
+/* Add focus styles */
+select:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Style the dropdown arrow */
+select::-ms-expand {
+  display: none;
+}
+
+/* Style the dropdown arrow in Webkit browsers */
+select::-webkit-select {
+  background-color: white;
+  background-image: linear-gradient(to bottom, #ffffff 0%, #f9f9f9 100%);
+}
+
+/* Style the options */
+select option {
+  background-color: white;
+  color: #333;
+}
+
+/* Style the selected option */
+select option:checked {
+  background-color: #007bff;
+  color: #fff;
+}
+/* carousel */
+.CryptoSelection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.slider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+label {
+  flex: 0 0 1%;   margin: 5px;
+  text-align: center;
+}
+
+/* Add this style for better spacing */
+label input {
+  margin-right: 5px;
+}
