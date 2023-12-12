@@ -6,7 +6,7 @@ This is a web application for tracking and downloading market cap data of crypto
 ## Table of Contents
 
 - [Structure](#structure)
-- [Technologies Used](#technologiesused)
+- [Technologies Used](#technologies-used)
 - [Screenshots](#screenshots)
 - [Features](#features)
 - [Getting Started](#getting-started)
