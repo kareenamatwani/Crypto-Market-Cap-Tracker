@@ -2,16 +2,23 @@
 
 This is a web application for tracking and downloading market cap data of cryptocurrencies. The application allows users to select specific cryptocurrencies, choose a date range, and fetch the corresponding market cap data from the CoinMarketCap API. The fetched data is then saved as JSON and downloaded as txt file.
 
+
 ## Table of Contents
 
-- [Features](#features)
+- [Structure](#structure)
 - [Screenshots](#screenshots)
+- [Features](#features)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
+
+## Structure
+- your root folder where node will be installed
+        - crypto-marketcap-frontend
+        - crypto-marketcap-backend
 ## Screenshots
 ![Screenshot 1](./crypto-marketcap-frontend/image1.png)
 ![Screenshot 2](./crypto-marketcap-frontend/image2.png)
@@ -43,7 +50,7 @@ Before running the application, make sure you have the following installed:
 2. Navigate to the project directory:
 
    ```bash
-   cd crypto-market-cap-tracker
+   cd crypto-marketcap
    ```
 
 3. Install the dependencies:
@@ -57,6 +64,7 @@ Before running the application, make sure you have the following installed:
 1. Start the frontend application:
 
    ```bash
+   cd crypto-marketcap-frontend
    npm start
    ```
 
@@ -65,7 +73,8 @@ Before running the application, make sure you have the following installed:
 2. Start the backend server:
 
    ```bash
-   node backend-server.js
+   cd cd crypto-marketcap-backend
+   node index.js
    ```
 
    The backend server will run at [http://localhost:3001](http://localhost:3001).
