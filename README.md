@@ -1,6 +1,6 @@
 # Crypto Market Cap Tracker
 
-This is a web application for tracking and downloading market cap data of cryptocurrencies. The application allows users to select specific cryptocurrencies, choose a date range, and fetch the corresponding market cap data from the CoinMarketCap API. The fetched data is then downloaded as a JSON file.
+This is a web application for tracking and downloading market cap data of cryptocurrencies. The application allows users to select specific cryptocurrencies, choose a date range, and fetch the corresponding market cap data from the CoinMarketCap API. The fetched data is then saved as JSON and downloaded as txt file.
 
 ## Table of Contents
 
