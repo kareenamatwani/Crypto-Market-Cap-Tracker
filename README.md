@@ -6,19 +6,24 @@ This is a web application for tracking and downloading market cap data of crypto
 ## Table of Contents
 
 - [Structure](#structure)
+- [Technologies](#technologiesused)
 - [Screenshots](#screenshots)
 - [Features](#features)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-
 
 ## Structure
-- your root folder where node will be installed
+- your root folder where node will be installed 
 1. crypto-marketcap-frontend
 2. crypto-marketcap-backend
+
+## Technologies Used
+1. React js
+2. Express js (Nodejs Framework)
+3. Axios and CORS middleware are also used
+4. 
 ## Screenshots
 ![Screenshot 1](./crypto-marketcap-frontend/image1.png)
 ![Screenshot 2](./crypto-marketcap-frontend/image2.png)
